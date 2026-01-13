@@ -51,3 +51,5 @@
 | `sv edit <name>`| Modify an existing code snippet|  
 | `sv search <query>`| Filter snippets by name or description|
 | `sv template <lang>`| Copy a CP template (e.g., `sv template cpp`)| 
+
+<img width="1470" height="956" alt="Screenshot 2026-01-13 at 11 27 46 AM" src="https://github.com/user-attachments/assets/aa65d1d6-0b91-4971-8116-b77f9fea5ec3" />
