@@ -4,7 +4,6 @@
 
 ## Features
 * **O(1) Search**: Snippets are stored in a hash map for near-instant retrieval.
-* **Syntax Highlighting**: Beautiful terminal output powered by `rich`.
 * **Auto-Clipboard**: Snippets are automatically copied to your system clipboard upon retrieval.
 * **Template Support**: Quick-copy boilerplate code for Competitive Programming (LeetCode/Codeforces).
 * **Architecture**: Separated storage logic and CLI interface.
