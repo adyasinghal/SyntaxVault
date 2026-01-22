@@ -17,7 +17,7 @@ def add(name: str):
         console.print(f"[bold red]Error:[/bold red] Snippet '{name}' already exists.")
         raise typer.Exit()
 
-    console.print("[bold cyan]Enter/Paste your code (Press Ctrl-D or Ctrl-Z on Windows to save):[/bold cyan]")
+    console.print("[bold cyan]Enter/Paste your code (Press Ctrl-D on MacOS and Ctrl-Z on Windows to save):[/bold cyan]")
     
     # Collect multiline input
     lines = []
@@ -32,7 +32,7 @@ def add(name: str):
         console.print("[bold red]Error:[/bold red] Code cannot be empty.")
         raise typer.Exit()
 
-    language = typer.prompt("Language (e.g., python, bash, sql)", default="text")
+    language = typer.prompt("Language (e.g., python, cpp, bash, sql)", default="text")
     description = typer.prompt("Description")
 
     manager.add_snippet(name, code, language, description)

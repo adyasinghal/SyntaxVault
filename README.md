@@ -1,6 +1,6 @@
 # SyntaxVault 
 
-**SyntaxVault** is a high-performance CLI tool built for developers who need to manage and retrieve reusable code snippets instantly. 
+**SyntaxVault** is a CLI tool built for programmers who need to manage and retrieve reusable code snippets instantly. 
 
 ## Features
 * **O(1) Search**: Snippets are stored in a hash map for near-instant retrieval.
